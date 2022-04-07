@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.font{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.blok{
+    width: 282px;
+    border-radius: 10px;
+    background-color: #EBECF0;
+    overflow: auto;
+    max-height: 538px;
+    margin: 10px;
+}
+.name{
+    left: 12px;
+    right: 38px;
+    top: 12px;
+    bottom: 168px;
+    color: #000000;
+}
+.btn{
+    cursor: pointer;
+    width: 215px;
+    height: 21px;
+    left: 32px;
+    top: 168px;
+    color: #5E6C84;
+}
+.btnSub{
+    background: #0079BF;
+    
+}
+.none{
+    display: none;
+}

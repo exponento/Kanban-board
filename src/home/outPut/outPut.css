@@ -1,0 +1,14 @@
+.outPut{
+    width: 258px;
+    background: white;
+    border-radius: 5px;
+    margin: 13px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+}
+.outPutLink{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}

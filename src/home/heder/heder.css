@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+.heder{
+    background-color: #0067A3;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.heder-projectName{
+    size: 28px;
+    color: white;
+    font-family: Roboto;
+    margin-left: 10px;
+}
+.heder-profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.heder-profile_login{
+    height: 60px;
+    width: 134px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    right: 23px;
+    top: 80px;
+}
+.heder-profile_login::before {
+    content: ''; 
+    position: absolute;
+    left: 88px;
+    bottom: 60px;
+    border: 10px solid transparent; 
+    border-bottom: 10px solid white;
+   }
+.heder-profile_name{
+    margin: 5px;
+}
+.heder-profile_name:hover{
+    text-decoration: underline;
+}
+.none{
+    display: none;
+}
+.heder-profile_btn{
+    border: none;
+    background-color: white;
+}
+.heder-profile_btn:hover{
+    text-decoration: underline;
+}
+.img{
+    margin: 10px;
+}
